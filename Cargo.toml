@@ -1,0 +1,15 @@
+[package]
+name = "jroot"
+version = "0.0.1"
+authors = ["Nicolas Embriz <nbari@tequila.io>"]
+description = "command line tool for  create and update jails"
+documentation = "https://github.com/nbari/jroot/blob/master/README.md"
+homepage = "https://github.com/nbari/jroot"
+repository = "https://github.com/nbari/jroot"
+readme = "README.md"
+keywords = ["jail", "freebsd", "chroot", "container"]
+categories = ["command-line-utilities", "command-line-interface"]
+license-file = "LICENSE"
+edition = "2018"
+
+[dependencies]
