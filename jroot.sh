@@ -94,7 +94,6 @@ build() {
     ln -s jroot/boot boot
     ln -s jroot/lib lib
     ln -s jroot/libexec libexec
-    ln -s jroot/rescue rescue
     ln -s jroot/sbin sbin
     ln -s ../jroot/usr/bin usr/bin
     ln -s ../jroot/usr/include usr/include
