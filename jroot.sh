@@ -29,9 +29,9 @@ EOF
 build() {
     # echo "Fetching src-jail.conf"
     if [ -f /etc/src-jail.conf ]; then
-        fetch -a https://raw.githubusercontent.com/fabrik-red/jroot/master/src-jail.conf -o /etc/src-jail.conf -i /etc/src-jail.conf
+        fetch -a https://raw.githubusercontent.com/nbari/jroot/master/src-jail.conf -o /etc/src-jail.conf -i /etc/src-jail.conf
     else
-        fetch -a https://raw.githubusercontent.com/fabrik-red/jroot/master/src-jail.conf -o /etc/src-jail.conf
+        fetch -a https://raw.githubusercontent.com/nbari/jroot/master/src-jail.conf -o /etc/src-jail.conf
     fi
 
     write "Creating /jroot datasets"
